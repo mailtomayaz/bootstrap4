@@ -1,16 +1,22 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+      <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/signin.css" crossorigin="anonymous">
 
     <title>Bootstrap 4!</title>
   </head>
-  <body>
-   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <body>
+           <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 <!--      <a class="navbar-brand" href="#">Expand at sm</a>-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,27 +47,26 @@
         </form>-->
       </div>
     </nav>
-    <div class="container">
-  <!-- Content here -->
-   <h4>Bootstrap 4 examples</h4>
-   <p>Here is list of bootstrap 4 examples </p>
-   <ul>
-       <li><a href="grid.html">Grid</a></li>
-       <li><a href="navbars.html">Navbars</a></li>
-       <li><a href="album.html">Album</a></li>
-        <li><a href="jumbotron.html">Jumbotron</a></li>
-        <li><a href="cover.html">Cover</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-        <li><a href="signin.html">Sign in</a></li>
-   </ul>
-<!--   column bootstrap 4-->
-  
-    </div>
-    <!-- Optional JavaScript -->
+        <div class="container">
+            <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input id="inputPassword" class="form-control" placeholder="Password" required="" type="password">
+        <div class="checkbox">
+          <label>
+            <input value="remember-me" type="checkbox"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+        </div> <!--container -->
+        
+              <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
     <script src="js/popper.min.js"  crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"  crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>
